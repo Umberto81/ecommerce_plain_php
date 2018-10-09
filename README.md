@@ -1,4 +1,4 @@
-# ecommerce_plain_php
+# ecommerce_plain_OOP_php
 
 use Bootsrap 4
 
