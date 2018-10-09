@@ -32,8 +32,8 @@ if (isset($_POST['add'])) {
 
             <div class="col-md-4 col-sm-4 header_style text-center">
               <h3><?php echo $row['name'];?></h3>
-              <h4>Prezzo: $<?php echo $row['price'];?></h4>
-            <a href="product.php?action=details&code=<?php echo $row['code'];?>">View all the details</a>
+              <h4>Price: $<?php echo $row['price'];?></h4>
+            <a href="product.php?code=<?php echo $row['code'];?>">View all the details</a>
             </div>
 
             <div class="col-md-3 col-sm-3">
